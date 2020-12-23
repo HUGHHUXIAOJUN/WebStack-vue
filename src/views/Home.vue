@@ -92,7 +92,7 @@
         </ul>
         <ul class="user-info-menu right-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
+            <a href="https://github.com/hughhuxiaojun/WebStack-vue" target="_blank">
               <i class="fa-github"></i> GitHub
             </a>
           </li>

@@ -9,15 +9,15 @@
         <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
       </div>
       <div id="s-bottom-layer-right" class="s-bottom-layer-right">
-        <span class="lh">©2020&nbsp;Baidu&nbsp;</span
-        ><span class="lh">(京)-经营性-2017-0020</span
+        <span class="lh">©2020&nbsp;huxiaojun&nbsp;</span
+        ><span class="lh"></span
         ><a
-          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"
+          href="http://www.beian.gov.cn/portal/index.do"
           target="_blank"
           ><span class="lh s-bottom-recordcode"
-            >京公网安备11000002000001号</span
+            >苏ICP备19006293号</span
           ></a
-        ><span class="lh">京ICP证030173号</span>
+        ><span class="lh"></span>
       </div>
     </div>
 

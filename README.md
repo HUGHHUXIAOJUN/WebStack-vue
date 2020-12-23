@@ -1,6 +1,9 @@
 # nav
 
-[原设计](https://github.com/WebStackPage/WebStackPage.github.io)
+[原设计](https://github.com/WebStackPage/WebStackPage.github.io) 
+<p></p>
+[vue](https://github.com/Anjaxs/WebStack-vue)版本 
+<p></p>
 基于[vue](https://github.com/Anjaxs/WebStack-vue)版本的修改
 用新版vue 修改 去除所有js的引入 去除nextTick 的操作，css和字体问题太多 修改较少 
 data.json 放入pulic 打包之后可以直接修改 方便操作
