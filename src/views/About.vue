@@ -9,7 +9,7 @@
           </router-link>
         </div>
         <div class="navbar-mobile-clear"></div>
-        <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
+        <a href="https://github.com/hughhuxiaojun/WebStack-vue" target="_blank">
            <img style="position: absolute; top: 0; right: 0; border: 0;"
                src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
                alt="Fork me on GitHub">
@@ -28,11 +28,17 @@
                 <div class="row">
                   <div class="col-sm-12">
                     <blockquote>
-                      <p>有一段时间我发现我的收藏夹越来越多，很难找到某个不常用的网站。
-                        所以就有了这个网站，这里收集的基本都是我自己浏览器收藏夹里的网站，我平时用的相对比较多的一些都在这里。</p>
-                      <br />
-                      <p>如果你也是设计师，如果你也正好喜欢设计，那希望这个网站能给你带来一些作用。</p>
-                      <p>闲聊或者有任何建议都可以加QQ群交流：304584722</p>
+                      <p>本站设计来源 <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank">Viggo</a> </p>
+                      <p>基于vue版本 <a href="https://github.com/Anjaxs/WebStack-vue/tree/master" target="_blank">Anjaxs</a> 的修改 </p>
+                      <p>
+                        整体就2个页面,适合后期自己修改,我把 Anjaxs 的版本里面的页面和组件直接复制过来修改的
+                        <br/>
+                        直接去除了原本里面的所有js，添加了一个方法，css不容易区分只删除了2个压缩的文件
+                        <br/>
+                        data.json放在了public 图片基本都删除了建议直接拿网站的icon地址
+                        <br/>
+                        html里面的seo部分我也都去了
+                      </p>
                     </blockquote>
                   </div>
                 </div>
@@ -41,20 +47,20 @@
                 <div class="row">
                   <div class="col-sm-4">
                     <div class="xe-widget xe-conversations box2 label-info"
-                         onclick="window.open('http://www.viggoz.com/', '_blank')"
+                         onclick="window.open('https://github.com/hughhuxiaojun', '_blank')"
                          data-toggle="tooltip"
                          data-placement="bottom"
                          title=""
-                         data-original-title="http://www.viggoz.com/">
+                         data-original-title="https://github.com/hughhuxiaojun">
                       <div class="xe-comment-entry">
                         <a class="xe-user-img">
                           <img :src="authorImg" class="img-circle" width="40">
                         </a>
                         <div class="xe-comment">
                           <a href="#" class="xe-user-name overflowClip_1">
-                            <strong>Designer. Viggo.</strong>
+                            <strong>CVgcs. Hugh.</strong>
                           </a>
-                          <p class="overflowClip_2"> Full-time UI designer with an enduring interest in Coding.</p>
+                          <p class="overflowClip_2"> 你是说我们喜欢的是创作,还是代码本身</p>
                         </div>
                       </div>
                     </div>
@@ -65,14 +71,10 @@
                         <br />
                         <blockquote>
                           <p>
-                            这是一个公益项目，而且是<a href="https://github.com/WebStackPage/WebStackPage.github.io"> 开源 </a>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=WebStackPage&repo=WebStackPage.github.io&type=star&count=true"
-                                    frameborder="0" scrolling="0" width="100px" height="20px"></iframe> 的。你也可以拿来制作自己的网址导航。如果你有更好的想法，可以通过个人网站
-                            <a href="http://www.viggoz.com">
-                              <span class="label label-info" data-toggle="tooltip"
-                                    data-placement="left" title=""
-                                    data-original-title="Hello I am a Tooltip">viggoz.com</span>
-                            </a>中的联系方式找到我，欢迎与我交流分享。
+                            这是一个公益项目，而且是<a href="https://github.com/HUGHHUXIAOJUN/WebStack-vue"> 开源 </a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=HUGHHUXIAOJUN&repo=WebStack-vue&type=star&count=true"
+                                    frameborder="0" scrolling="0" width="80px" height="20px"></iframe> 的。
+                                    你也可以拿来制作自己的网址导航。如果你有更好的想法，可以与我交流分享,联系不到就算了。
                           </p>
                         </blockquote>
                       </div>
@@ -101,7 +103,7 @@ export default {
   },
   data() {
     return {
-      authorImg: 'https://www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg'
+      authorImg: require('../assets/images/favicon.png')
     }
   }
 }

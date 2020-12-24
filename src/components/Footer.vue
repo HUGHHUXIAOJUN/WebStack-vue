@@ -4,12 +4,12 @@
       <!-- 版权信息 -->
       <div class="footer-text">
         &copy; 2020
-        <a href="#"><strong>WebStack</strong></a>
+        <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>WebStack</strong></a>
         design by
         <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
       </div>
       <div id="s-bottom-layer-right" class="s-bottom-layer-right">
-        <span class="lh">©2020&nbsp;huxiaojun&nbsp;</span
+        <span class="lh">©2020&nbsp;Hugh&nbsp;</span
         ><span class="lh"></span
         ><a
           href="http://www.beian.gov.cn/portal/index.do"
