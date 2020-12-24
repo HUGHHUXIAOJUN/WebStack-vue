@@ -1,8 +1,8 @@
 [
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-star",
+        "name": "常用搜索",
+        "en_name": "Search",
+        "icon": "search",
         "web": [
             {
                 "url": "https://www.baidu.com/",
@@ -15,242 +15,326 @@
                 "logo": "https://q.huxiaojun.work/favicon.ico",
                 "title": "Google",
                 "desc": "还不知道就点我"
+            },
+            {
+                "url": "https://www.zhihu.com/follow",
+                "logo": "https://q.huxiaojun.work/zhihu.ico",
+                "title": "知乎",
+                "desc": "有问题，上知乎。知乎，可信赖的问答社区。"
+            },
+            {
+                "url": "https://juejin.cn/",
+                "logo": "https://b-gold-cdn.xitu.io/favicons/v2/favicon.ico",
+                "title": "掘金",
+                "desc": "掘金是一个帮助开发者成长的社区，是给开发者用的 Hacker News，给设计师用的 Designer News，和给产品经理用的 Medium。"
             }
         ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-music"
+        "name": "常用地址",
+        "en_name": "commonly",
+        "icon": "star",
+        "web": [
+            {
+                "url": "https://lanhuapp.com/",
+                "logo": "https://lhcdn.lanhuapp.com/web/static/favicon.ico",
+                "title": "蓝湖",
+                "desc": "团队协作"
+            },
+            {
+                "url": "https://docsmall.com/image-compress",
+                "logo": "https://docsmall.com/favicon.png",
+                "title": "docSmall",
+                "desc": "图片压缩"
+            },
+            {
+                "url": "https://fanyi.baidu.com/",
+                "logo": "https://fanyi-cdn.cdn.bcebos.com/static/translation/img/favicon/favicon_d87cd2a.ico",
+                "title": "百度翻译",
+                "desc": "百度翻译-200种语言互译、沟通全世界！"
+            }
+        ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-search"
+        "name": "相关文档",
+        "en_name": "document",
+        "icon": "document",
+        "web": [
+            {
+                "url": "https://developers.weixin.qq.com/doc/",
+                "logo": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+                "title": "微信开发",
+                "desc": "微信官方文档,微信开放文档"
+            },
+            {
+                "url": "https://mp.weixin.qq.com/",
+                "logo": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+                "title": "微信公众",
+                "desc": "微信公众平台"
+            },
+            {
+                "url": "https://pay.weixin.qq.com/wiki/doc/api/index.html",
+                "logo": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+                "title": "微信支付",
+                "desc": "微信支付开发平台"
+            },
+            {
+                "url": "https://ding-doc.dingtalk.com/",
+                "logo": "https://img.alicdn.com/tps/TB1d9fKJVXXXXbmXpXXXXXXXXXX-300-300.png",
+                "title": "钉钉开发",
+                "desc": "钉钉开发平台"
+            },
+            {
+                "url": "https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/guide/start/introduction",
+                "logo": "https://s3.pstatp.com/toutiao/resource/developer/static/favicon-logo.ico",
+                "title": "字节跳动",
+                "desc": "字节跳动小程序文档"
+            },
+            {
+                "url": "https://cn.vuejs.org/",
+                "logo": "https://cn.vuejs.org/images/icons/apple-icon-180x180.png",
+                "title": "Vue",
+                "desc": "Vue开发文档"
+            },
+            {
+                "url": "https://react.docschina.org/",
+                "logo": "https://react.docschina.org/favicon.ico",
+                "title": "React",
+                "desc": "React开发文档"
+            },
+            {
+                "url": "https://uniapp.dcloud.io/",
+                "logo": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/doc/icon.png?v=1556263038786",
+                "title": "uni-app",
+                "desc": "uni-app官网"
+            },
+            {
+                "url": "http://nodejs.cn/api/",
+                "logo": "http://static.nodejs.cn/_static/img/favicon.png",
+                "title": "nodeJS",
+                "desc": "nodeJS中文文档"
+            },
+            {
+                "url": "https://www.nuxtjs.cn/",
+                "logo": "https://www.nuxtjs.cn/favicon.ico",
+                "title": "nuxtjs",
+                "desc": "nuxtjs中文文档"
+            },
+            {
+                "url": "https://nestjs.bootcss.com/",
+                "logo": "https://nestjs.bootcss.com/img/favicon.ico",
+                "title": "NestJS",
+                "desc": "NestJS中文文档"
+            }
+        ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-mail"
+        "name": "云服务器",
+        "en_name": "Server",
+        "icon": "server",
+        "web": [
+            {
+                "url": "https://account.aliyun.com/",
+                "logo": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
+                "title": "阿里云",
+                "desc": "云服务器、云主机、弹性计算、云存储、开放存储、OSS、ACE、数据库、mysql、RDS、SQLSERVER"
+            },
+            {
+                "url": "https://console.cloud.tencent.com/",
+                "logo": "https://cloudcache.tencent-cloud.com/qcloud/app/resource/ac/favicon.ico",
+                "title": "腾讯云",
+                "desc": "云服务器、云主机、弹性计算、云存储、开放存储、OSS、ACE、数据库、mysql、RDS、SQLSERVER"
+            },
+            {
+                "url": "https://portal.qiniu.com/",
+                "logo": "https://qiniu.staticfile.org/favicon.ico",
+                "title": "七牛云",
+                "desc": "云存储、开放存储、OSS"
+            },
+            {
+                "url": "https://www.sinacloud.com/",
+                "logo": "https://www.sinacloud.com/favicon.ico",
+                "title": "新浪云",
+                "desc": "云存储、开放存储、OSS"
+            },
+            {
+                "url": "https://my.vultr.com/",
+                "logo": "https://my.vultr.com/favicon/favicon-32x32.png?v=1",
+                "title": "Vultr",
+                "desc": "云服务器、云主机、VPS"
+            },
+            {
+                "url": "https://www.namesilo.com/",
+                "logo": "https://www.namesilo.com/favicon.ico",
+                "title": "namesilo",
+                "desc": "域名、云服务器、云主机、VPS"
+            }
+        ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-heart"
+        "name": "常用插件",
+        "en_name": "Plugin",
+        "icon": "Plugin", 
+        "web" : [
+            {
+                "url": "https://www.bt.cn/btcode.html",
+                "logo": "https://www.bt.cn/favicon.ico",
+                "title": "宝塔",
+                "desc": "宝塔linux面板命令大全 - 宝塔面板"
+            },
+            {
+                "url": "https://www.cloudx.cn/",
+                "logo": "https://www.cloudx.cn/favicon.ico",
+                "title": "云帮手",
+                "desc": "云帮手 - 集中化服务器管理软件"
+            },
+            {
+                "url": "https://cplayer.js.org/",
+                "logo": "http://q.huxiaojun.work/mp3.png",
+                "title": "Cplayer",
+                "desc": "音乐播放器插件"
+            },
+            {
+                "url": "https://myhkw.cn/",
+                "logo": "https://myhkw.cn/favicon.ico",
+                "title": "明月浩空",
+                "desc": "🎵明月浩空网-永久免费的HTML5网站音乐播放器"
+            },
+            {
+                "url": "https://dplayer.js.org/",
+                "logo": "https://dplayer.js.org/logo.png",
+                "title": "Dplayer",
+                "desc": "视频播放器插件"
+            },
+            {
+                "url": "https://www.fghrsh.net/post/123.html",
+                "logo": "https://cdn.fghrsh.net/blogcdn/2018/08/201808108310_6281.png",
+                "title": "看板娘",
+                "desc": "网页添加 Live2D 看板娘 - FGHRSH 的博客"
+            },
+            {
+                "url": "https://www.jinrishici.com/#",
+                "logo": "https://www.jinrishici.com/img/icon-small.png",
+                "title": "今日诗词",
+                "desc": "今日诗词 - 一言API - 诗词实时智能推荐 - 今日诗词开放接口 - 今日诗词 API"
+            }
+        ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-user"
+        "name": "硬改论坛",
+        "en_name": "forum",
+        "icon": "forum", 
+        "web" : [
+            {
+                "url": "https://tieba.baidu.com/",
+                "logo": "https://tb1.bdstatic.com/tb/favicon.ico",
+                "title": "百度贴吧",
+                "desc": "贴吧,百度贴吧,论坛,兴趣,社区,BBS"
+            },
+            {
+                "url": "https://www.right.com.cn/forum/",
+                "logo": "https://www.right.com.cn/favicon.ico",
+                "title": "恩山论坛",
+                "desc": "贴吧,百度贴吧,论坛,兴趣,社区,BBS"
+            },
+            {
+                "url": "https://koolshare.cn/portal.php",
+                "logo": "https://koolshare.cn/static/image/icon/favicon.ico",
+                "title": "KOOLSHARE",
+                "desc": "路由器,无线路由器,网络设备,梅林固件,Netgear,网件,Asus,华硕,Linksys,merlin,开箱,评测,拆解"
+            },
+            {
+                "url": "https://www.chiphell.com/",
+                "logo": "https://q.huxiaojun.work/chh.png",
+                "title": "CHH",
+                "desc": "首页 -  Chiphell - 分享与交流用户体验   "
+            },
+            {
+                "url": "http://www.smxdiy.com/thread-710-1-1.html",
+                "logo": "http://www.smxdiy.com/favicon.ico",
+                "title": "SMXDIY",
+                "desc": "授人予鱼 不如授人予渔 ——一起学习刷bios的基础教程 - Motherboard主板 "
+            },
+            {
+                "url": "https://bbs.pediy.com/",
+                "logo": "https://q.huxiaojun.work/kanxue.ico",
+                "title": "看雪",
+                "desc": "看雪学院-专注于PC|移动|智能设备安全研究及逆向工程的开发者社区|bbs.pediy.com "
+            },
+            {
+                "url": "http://nfcreader.ourword.press/",
+                "logo": "https://nfcreader.ourword.press/wp-content/uploads/2020/05/ic_launcher_120.png",
+                "title": "NFCREADER",
+                "desc": "NFC Reader Tool | 门禁卡|电梯卡|破解专家"
+            },
+            {
+                "url": "https://www.oschina.net/",
+                "logo": "https://static.oschina.net/new-osc/img/favicon.ico",
+                "title": "OSCHINA",
+                "desc": "OSCHINA - 中文开源技术交流社区"
+            },
+            {
+                "url": "https://bbs.nas66.com/",
+                "logo": "https://q.huxiaojun.work/kuang.png",
+                "title": "矿渣社区",
+                "desc": "矿渣社区 - 猫盘NAS群晖系统 - 闻上NAS群晖系统 - 软路由系统 - qnap 威联通 -  Powered by Discuz!"
+            },
+            {
+                "url": "https://www.f2pool.com/miners",
+                "logo": "https://static.f2pool.com/static/images/favicon.ico?v=0355bdb49a472ebaefc3e899bac14d32",
+                "title": "矿机选择",
+                "desc": "热门矿机 - 全方位对比矿机收益 - F2Pool"
+            }
+            
+        ]
     },
     {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-videocam"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-camera"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-photo"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-attach"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-lock"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-eye"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-tag"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-thumbs-up"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-pencil"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-comment"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-location"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-cup"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-trash"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-doc"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-note"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-cog"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-params"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-calendar"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-sound"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-clock"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-lightbulb"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-tv"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-desktop"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-mobile"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-cd"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-inbox"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-globe"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-cloud"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-paper-plan"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-fire"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-graduation-cap"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-megaphone"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-database"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-key"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-beaker"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-truck"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-money"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-food"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-shop"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-diamond"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-t-shirt"
-    },
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-wallet"
+        "name": "壁纸图片",
+        "en_name": "picture",
+        "icon": "picture", 
+        "web" : [
+            {
+                "url": "https://www.doooor.com/forum-99-1.html",
+                "logo": "https://www.doooor.com/favicon.ico",
+                "title": "DOOOOR",
+                "desc": "超清单图 - 国外设计欣赏网站 - DOOOOR.com  "
+            },
+            {
+                "url": "https://unsplash.com/",
+                "logo": "https://unsplash.com/favicon-32x32.png",
+                "title": "unsplash",
+                "desc": "Unsplash Home"
+            },
+            {
+                "url": "https://www.wallpaperup.com/",
+                "logo": "https://www.wallpaperup.com/favicon.ico?v=3.5.1",
+                "title": "wallpaperup",
+                "desc": "wallpaperup Home"
+            },
+            {
+                "url": "https://wallhaven.cc/",
+                "logo": "https://wallhaven.cc/favicon.ico",
+                "title": "wallhaven",
+                "desc": "Awesome Wallpapers - wallhaven.cc"
+            },
+            {
+                "url": "http://wallls.com/",
+                "logo": "https://q.huxiaojun.work/wallls.ico",
+                "title": "wallls",
+                "desc": "Most inspiring and awesome desktop wallpapers - Wallls.com"
+            },
+            {
+                "url": "https://vlad.studio/zh/wallpapers/",
+                "logo": "https://vlad.studio/favicon/favicon-32x32.png",
+                "title": "vlad",
+                "desc": "壁纸 · Vladstudio"
+            },
+            {
+                "url": "https://huaban.com/",
+                "logo": "https://huaban.com/favicon.ico",
+                "title": "花瓣",
+                "desc": "花瓣网_陪你做生活的设计师（创意灵感天堂，搜索、发现设计灵感、设计素材）"
+            }
+        ]
     }
 ]

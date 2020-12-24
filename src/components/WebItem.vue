@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h4 class="text-gray">
-      <i class="linecons-tag" :id="transName(item)"></i>{{transName(item)}}
+    <h4 :id='transName(item)' class="text-gray">
+      <svgIcon name='tag' class="margin-l10" />{{transName(item)}}
     </h4>
     <div class="row">
       <div class="col-sm-3" v-for="(web, idx) in item.web" :key="idx">
@@ -13,7 +13,7 @@
 
           <div class="xe-comment-entry">
             <a class="xe-user-img">
-              <img :src="web.logo" class="lozad img-circle" width="40">
+              <img :src="web.logo" class="lozad " width="40">
             </a>
             <div class="xe-comment">
               <a href="#" class="xe-user-name overflowClip_1">

@@ -1,31 +1,32 @@
 <template>
   <div @click="setAction($event)" class="page-container">
-    <div class="sidebar-menu toggle-others fixed">
+    <div :class="[slider&&'collapsed']" class="sidebar-menu toggle-others fixed">
       <div class="sidebar-menu-inner">
         <header class="logo-env">
           <!-- logo -->
           <div class="logo">
-            <a href="#" class="logo-expanded">
-              <img src="../assets/images/logo@2x.png" alt="" />
+            <a href="#" class="logo-expanded flex">
+              <img src="../assets/images/logo.png" alt="" />
+              <div class="name">常用网址导航</div>
             </a>
             <a href="#" class="logo-collapsed">
-              <img src="../assets/images/logo-collapsed@2x.png" alt="" />
+              <img src="../assets/images/logo.png" alt="" />
             </a>
           </div>
           <div class="mobile-menu-toggle visible-xs">
             <a href="#" @click="moble = !moble" data-toggle="user-info-menu">
-              <i class="linecons-cog"></i>
+              <svgIcon name='cog' class="margin-l10" />
             </a>
-            <a href="#" data-toggle="mobile-menu">
-              <i class="fa-bars"></i>
+            <a href="#" @click="slider=!slider" data-toggle="mobile-menu">
+              <svgIcon name='bars' class="margin-l10"  />
             </a>
           </div>
         </header>
         <!-- 侧边栏 -->
-        <ul id="main-menu" class="main-menu">
+        <ul id="main-menu" :class="[slider&&'mobile-is-visible']" class="main-menu">
           <li v-for="(menu, idx) in items" :key="idx">
             <a :href="'#' + transName(menu)" class="smooth" @click="moveSlow">
-              <i :class="menu.icon"></i>
+              <svgIcon  :name='menu.icon' class="margin-l10" />
               <span class="title">{{ transName(menu) }}</span>
             </a>
             <ul v-if="menu.children">
@@ -48,11 +49,11 @@
           <!-- 关于本站 -->
           <li class="submit-tag">
             <router-link to="/about">
-              <i class="linecons-heart"></i>
+              <svgIcon name='heart' class="margin-l10"  />
               <span class="tooltip-blue">关于本站</span>
-              <span class="label label-Primary pull-right hidden-collapsed"
-                >♥︎</span
-              >
+              <span style="font-size:12px" class="label label-Primary pull-right hidden-collapsed">
+                <svgIcon name='aboutme' />
+              </span>
             </router-link>
           </li>
         </ul>
@@ -66,8 +67,10 @@
         role="navigation"
       >
         <ul class="user-info-menu left-links list-inline list-unstyled">
-          <li class="hidden-sm hidden-xs">
-            <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
+          <li @click="slider=!slider" class="hidden-sm hidden-xs">
+            <a href="#" data-toggle="sidebar">
+              <svgIcon name='bars' />
+            </a>
           </li>
           <li
             @click="action = !action"
@@ -130,6 +133,7 @@ export default {
     return {
       action: false,
       moble: false,
+      slider:false,
       items: itemsData,
       lang: {},
       langList: [
@@ -165,15 +169,28 @@ export default {
   min-height: 100vh;
 }
 .webList {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 170px);
 }
 @media screen and (min-width: 400px) {
   .language-switcher:hover .dropdown-menu {
     display: block;
   }
 }
-.logo a {
+.logo a img{
   display: block;
-  width: 178px;
+  width: 40px;
+  height: 40px;
+}
+a.logo-collapsed img{
+  width: 40px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.name{
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
 }
 </style>

@@ -20,5 +20,8 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
-
+router.beforeEach((to, from, next) => {
+  to.meta.title && (document.title = to.meta.title)
+  next();
+})
 export default router

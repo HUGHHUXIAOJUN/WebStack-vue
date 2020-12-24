@@ -4,8 +4,8 @@
       <div class="navbar-inner">
         <div class="navbar-brand">
           <router-link to="/" class="logo">
-            <img src="../assets/images/logo_dark@2x.png" width="100%" alt="" class="hidden-xs">
-            <img src="../assets/images/logo@2x.png" width="100%" alt="" class="visible-xs">
+            <img src="../assets/images/logo.png" width="100%" alt="" class="hidden-xs">
+            <img src="../assets/images/logo.png" width="100%" alt="" class="visible-xs">
           </router-link>
         </div>
         <div class="navbar-mobile-clear"></div>
@@ -31,13 +31,15 @@
                       <p>本站设计来源 <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank">Viggo</a> </p>
                       <p>基于vue版本 <a href="https://github.com/Anjaxs/WebStack-vue/tree/master" target="_blank">Anjaxs</a> 的修改 </p>
                       <p>
-                        整体就2个页面,适合后期自己修改,我把 Anjaxs 的版本里面的页面和组件直接复制过来修改的
+                        整体就2个页面,适合后期自己修改,我把 Anjaxs 的版本里面的页面和组件直接复制过来修改的 改了路由方式，修复点击多次返回问题
                         <br/>
                         直接去除了原本里面的所有js，添加了一个方法，css不容易区分只删除了2个压缩的文件
                         <br/>
                         data.json放在了public 图片基本都删除了建议直接拿网站的icon地址
                         <br/>
                         html里面的seo部分我也都去了
+                        font.css 已全部移除，改用svg 组件 存放在 assets icons 里面 打包之后会压缩变为一张 iconfont上直接下载svg 
+                        大小通过父级字体来设定，如要改变颜色，你可以下载的时候下载好或者下载之后改svg颜色为currentColor通过父级设定
                       </p>
                     </blockquote>
                   </div>
@@ -54,13 +56,13 @@
                          data-original-title="https://github.com/hughhuxiaojun">
                       <div class="xe-comment-entry">
                         <a class="xe-user-img">
-                          <img :src="authorImg" class="img-circle" width="40">
+                          <img src="https://q.huxiaojun.work/favicon.png" class="img-circle" width="40">
                         </a>
                         <div class="xe-comment">
                           <a href="#" class="xe-user-name overflowClip_1">
                             <strong>CVgcs. Hugh.</strong>
                           </a>
-                          <p class="overflowClip_2"> 你是说我们喜欢的是创作,还是代码本身</p>
+                          <p class="overflowClip_2"> 你说我们喜欢的是创作,还是代码本身</p>
                         </div>
                       </div>
                     </div>
@@ -71,9 +73,7 @@
                         <br />
                         <blockquote>
                           <p>
-                            这是一个公益项目，而且是<a href="https://github.com/HUGHHUXIAOJUN/WebStack-vue"> 开源 </a>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=HUGHHUXIAOJUN&repo=WebStack-vue&type=star&count=true"
-                                    frameborder="0" scrolling="0" width="80px" height="20px"></iframe> 的。
+                            这是一个开源的项目<iframe src="https://ghbtns.com/github-btn.html?user=HUGHHUXIAOJUN&repo=WebStack-vue&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe> 。
                                     你也可以拿来制作自己的网址导航。如果你有更好的想法，可以与我交流分享,联系不到就算了。
                           </p>
                         </blockquote>
@@ -100,17 +100,12 @@ export default {
   name: 'About',
   components: {
     Footer
-  },
-  data() {
-    return {
-      authorImg: require('../assets/images/favicon.png')
-    }
   }
 }
 </script>
 
 <style>
 .navbar-brand a img{
-    min-width: 178px;
+    min-width: 40px;
 }
 </style>
