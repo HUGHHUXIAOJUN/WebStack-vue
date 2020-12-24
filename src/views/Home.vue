@@ -140,12 +140,12 @@ export default {
         {
           key: "zh",
           name: "简体中文",
-          flag: require("../assets/images/flags/flag-cn.png"),
+          flag: "https://q.huxiaojun.work/flag-cn.png",
         },
         {
           key: "en",
           name: "English",
-          flag: require("../assets/images/flags/flag-us.png"),
+          flag:"https://q.huxiaojun.work//flag-us.png",
         },
       ],
     };
