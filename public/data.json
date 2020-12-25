@@ -56,6 +56,31 @@
         ]
     },
     {
+        "name": "常用网盘",
+        "en_name": "disk",
+        "icon": "disk",
+        "web": [
+            {
+                "url": "https://pan.baidu.com/",
+                "logo": "https://pan.baidu.com/m-static/base/static/images/favicon.ico",
+                "title": "百度网盘",
+                "desc": "网盘,百度网盘,百度云,网络U盘,网络硬盘,免费网盘,网盘下载,网盘资源,同步,云存储,外链分享,离线下载"
+            },
+            {
+                "url": "https://cloud.189.cn/",
+                "logo": "https://q.huxiaojun.work/tianyi.ico",
+                "title": "天翼云盘",
+                "desc": "网盘,云盘,天翼云盘,家庭云,免费网盘,安全网盘,好用网盘,网盘下载,云存储,个人云,电信网盘,手机备份,照片备份,群空间,云相册,文件同步,网盘资源,外链分享"
+            },
+            {
+                "url": "https://pc.woozooo.com/",
+                "logo": "https://pc.woozooo.com/favicon.ico",
+                "title": "蓝奏·云存储",
+                "desc": "蓝奏, 上传, 网盘, 网络硬盘, 云盘, 云存储, 网众蓝奏"
+            }
+        ]
+    },
+    {
         "name": "相关文档",
         "en_name": "document",
         "icon": "document",
