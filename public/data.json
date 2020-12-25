@@ -309,6 +309,18 @@
                 "logo": "https://static.f2pool.com/static/images/favicon.ico?v=0355bdb49a472ebaefc3e899bac14d32",
                 "title": "矿机选择",
                 "desc": "热门矿机 - 全方位对比矿机收益 - F2Pool"
+            },
+            {
+                "url": "https://xpenology.com/forum/",
+                "logo": "https://xpenology.com/favicon.ico",
+                "title": "xpenology",
+                "desc": "Forums - XPEnology Community"
+            },
+            {
+                "url": "http://www.nasyun.com/",
+                "logo": "http://www.nasyun.com/favicon.ico",
+                "title": "那是云",
+                "desc": "NAS云论坛_家用NAS_My Cloud Nas_智慧家庭_网络存储_家庭服务器_个人云存储_NAS交流云社区 - 智能生活,上那是云"
             }
             
         ]
