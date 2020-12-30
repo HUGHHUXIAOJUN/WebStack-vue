@@ -46,6 +46,16 @@
               </li>
             </ul>
           </li>
+          <!-- 我的应用 -->
+          <li class="submit-tag">
+            <router-link to="/myapp">
+              <svgIcon name='app' class="margin-l10"  />
+              <span class="tooltip-blue">我的应用</span>
+              <span style="font-size:12px" class="label label-Primary pull-right hidden-collapsed">
+                <svgIcon name='aboutme' />
+              </span>
+            </router-link>
+          </li>
           <!-- 关于本站 -->
           <li class="submit-tag">
             <router-link to="/about">

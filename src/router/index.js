@@ -9,6 +9,12 @@ const routes = [
     meta:{title:'我的导航页'}
   },
   {
+    path: '/myapp',
+    name: 'myapp',
+    component: () => import(/* webpackChunkName: "myapp" */ '../views/myapp.vue'),
+    meta:{title:'我的应用'}
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
