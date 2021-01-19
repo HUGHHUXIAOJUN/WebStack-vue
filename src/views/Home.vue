@@ -47,7 +47,7 @@
             </ul>
           </li>
           <!-- 我的应用 -->
-          <li class="submit-tag">
+          <!-- <li class="submit-tag">
             <router-link to="/myapp">
               <svgIcon name='app' class="margin-l10"  />
               <span class="tooltip-blue">我的应用</span>
@@ -55,7 +55,7 @@
                 <svgIcon name='aboutme' />
               </span>
             </router-link>
-          </li>
+          </li> -->
           <!-- 关于本站 -->
           <li class="submit-tag">
             <router-link to="/about">
